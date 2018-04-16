@@ -1,0 +1,16 @@
+# name
+# createdAt
+# [dealId]
+
+type Blog {
+    _id: String!
+    title: String!
+}
+
+type Mutation {
+    createBlog(title: String!): Blog
+}
+
+type Query {
+  blog: [Blog]
+}
