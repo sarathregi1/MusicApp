@@ -38,7 +38,6 @@ class BlogPage extends Component {
                 </Flexbox>
                 <Button variant="fab" style={{ backgroundColor: "rgba(103, 58, 183, 1)", color: "#FFFFFF", position: "fixed", right: 30, bottom: 30 }}>
                     <EditIcon/>
-                    <EditIcon/>
                 </Button>
             </div>
         )
