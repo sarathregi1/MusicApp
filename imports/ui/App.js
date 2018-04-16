@@ -6,6 +6,7 @@ import BlogPage from './Pages/Blog';
 import gql from 'graphql-tag';
 import { graphql } from 'react-apollo';
 import { withApollo } from 'react-apollo';
+import AccountPage from '../ui/Pages/Accounts';
 
 const App = ({ loading, user, client }) => {
     if (loading) return null;
@@ -15,6 +16,7 @@ const App = ({ loading, user, client }) => {
                 <div>
                     <Route exact path="/" component={HomePage}/>
                     <Route exact path="/Blog" component={BlogPage}/>
+                    <Route exact path="/Account" component={AccountPage}/>
                 </div>
             </Router>
         </div>

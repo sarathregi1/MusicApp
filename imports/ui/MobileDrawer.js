@@ -67,6 +67,9 @@ class MobileDrawer extends React.Component {
               <Button disableRipple type="button" onClick={() => this.setState({ isOpen: true })} style={{ fontFamily: 'Raleway', width: 100 + "%" }}>Gallery</Button>
             </MenuItem>
             <MenuItem>
+              <Button disableRipple color="inherit" href='/Account' style={{ fontFamily: 'Raleway', width: 100 + "%" }}>Account</Button>
+            </MenuItem>
+            <MenuItem>
               <AccountFunc />
             </MenuItem>
           </div>

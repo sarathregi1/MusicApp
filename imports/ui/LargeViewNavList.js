@@ -27,6 +27,7 @@ export default class NavItems extends Component {
                 <Button href='/' style={{ fontFamily: 'Raleway', color: "#FFFFFF", height: 64 }}>Home</Button>
                 <Button href='/Blog' style={{ fontFamily: 'Raleway', color: "#FFFFFF", height: 64 }}>Blog</Button>
                 <Button type="button" onClick={() => this.setState({ isOpen: true })} style={{ fontFamily: 'Raleway', color: "#FFFFFF", height: 64 }}>Gallery</Button>
+                <Button href='/Account' style={{ fontFamily: 'Raleway', color: "#FFFFFF", height: 64 }}>Account</Button>
                 <AccountFunc/>
                 {isOpen && (
                     <Lightbox

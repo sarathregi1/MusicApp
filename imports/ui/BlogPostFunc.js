@@ -31,7 +31,7 @@ class BlogForm extends Component {
     render() {
         return (
             <div>
-                <form onSubmit={this.props.client.onResetStore(stateLink.writeDefaults)}>
+                <form >
                     <input type="text" ref={(input) => this.title = input} />
                     <Button variant="raised" color="primary" onClick={this.submitForm}>
                         Hello World

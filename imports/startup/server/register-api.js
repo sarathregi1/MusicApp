@@ -4,8 +4,8 @@ import merge from 'lodash/merge';
 
 import UsersSchema from '../../api/users/User.graphql';
 import UsersResolvers from '../../api/users/resolvers';
-import BlogSchema from '../../api/Blog/Blog.graphql';
-import BlogResolvers from '../../api/Blog/resolvers';
+import BlogSchema from '../../api/blog/Blog.graphql';
+import BlogResolvers from '../../api/blog/resolvers';
 // hmn
 
 const typeDefs = [
